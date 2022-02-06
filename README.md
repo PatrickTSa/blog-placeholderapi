@@ -3,10 +3,11 @@ This project is a little blog using [JSONPlaceholder](https://jsonplaceholder.ty
 
 **Installation**
 You need to follow some steps to run this app:
-1 - clone the project
-2 - cp .env.example .env and fill in the variables
-3 - yarn install
-3 - yarn start
+
+1.  clone the project
+2.  cp .env.example .env and fill in the variables
+3.  yarn install
+4.  yarn start
 
 **Goals**
 
