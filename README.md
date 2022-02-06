@@ -18,3 +18,5 @@ You need to follow some steps to run this app:
 - [ ] Tests
 - [x] Deploy Actions
 - [x] Deploy
+
+You can see the result [here](https://blog-placeholderapi.web.app/).
