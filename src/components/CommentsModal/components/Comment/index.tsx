@@ -11,11 +11,12 @@ const Comment = ({ name, email, body }: PostComment) => {
 
   const checkWidth = useCallback(() => {
     const { matches } = window.matchMedia(`(max-width: 375px)`);
-    setPadding(matches ? 0 : 24);
+    setPadding(matches ? 2 : 24);
   }, []);
 
   useEffect(() => {
     window.addEventListener("resize", checkWidth);
+    checkWidth();
 
     return () => {
       window.removeEventListener("resize", checkWidth);
