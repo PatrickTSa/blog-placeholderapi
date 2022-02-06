@@ -10,7 +10,7 @@ interface CommentsDataType {
   createComment(comment: Omit<PostComment, "id">): void;
 }
 
-const CommentContext = createContext({} as CommentsDataType);
+export const CommentContext = createContext({} as CommentsDataType);
 
 export const CommentProvider: React.FC = ({ children }) => {
   const [comments, setComments] = useState<PostComment[]>([]);

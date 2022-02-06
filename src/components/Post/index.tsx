@@ -18,7 +18,7 @@ const Post = ({ id, title, body }: Post) => {
   }, []);
 
   return (
-    <Container onClick={handleClick}>
+    <Container data-testid="post-container" onClick={handleClick}>
       <div ref={postRef} style={{ maxWidth: maxWidth || undefined }}>
         <TitleStyled level={4}>{title}</TitleStyled>
 
