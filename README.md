@@ -16,4 +16,5 @@ You need to follow some steps to run this app:
 - [x] Create a local comment
 - [x] Responsive
 - [ ] Tests
+- [x] Deploy Actions
 - [x] Deploy
